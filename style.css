@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4); /* Gradient background */
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Button Group Styles */
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* General Button Styles */
+.btn {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-transform: uppercase;
+}
+
+/* Button Hover Effects */
+.btn:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+/* Specific Button Colors */
+.btn-danger {
+    background-color: #e57373; /* Light Red */
+}
+
+.btn-warning {
+    background-color: #ffb74d; /* Light Orange */
+}
+
+.btn-success {
+    background-color: #81c784; /* Light Green */
+}
+
+.btn-primary {
+    background-color: #64b5f6; /* Light Blue */
+}
+
+.btn-info {
+    background-color: #4fc3f7; /* Light Teal */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .btn {
+        width: 90%;
+    }
+
+    .logo {
+        width: 100px;
+    }
+}
